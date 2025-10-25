@@ -78,7 +78,7 @@ export default function Cart() {
             </div>
             <Button onClick={()=>mutate()} className='block ml-auto my-5 cursor-pointer '> {isPending?<i className='fa-solid fa-spin fa-spinner'></i>:'clear Cart'}</Button>
             <Button  className='block ml-auto my-5 cursor-pointer '> 
-                <Link href={`/ckechOut/${data?.cartId}`}> CheckOut</Link>
+                <Link href={`/checkout/${data?.cartId}`}> CheckOut</Link>
                 </Button>
         </div>
 
